@@ -1,0 +1,594 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminuserActivity"
+    tools:layout_editor_absoluteX="-1dp"
+    tools:layout_editor_absoluteY="16dp">
+
+    <ImageView
+        android:id="@+id/imageView56"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:src="@drawable/kotakabu"
+        app:layout_constraintEnd_toEndOf="@+id/textView49"
+        app:layout_constraintTop_toBottomOf="@+id/textView49"></ImageView>
+
+    <ImageView
+        android:id="@+id/imageView57"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:src="@drawable/kotakmerah2"
+        app:layout_constraintStart_toStartOf="@+id/textView49"
+        app:layout_constraintTop_toBottomOf="@+id/textView49"></ImageView>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="34dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="128dp"
+        android:src="@drawable/kotakabu"
+        app:layout_constraintStart_toStartOf="@+id/imageView15"
+        app:layout_constraintTop_toBottomOf="@+id/imageView15"></ImageView>
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="34dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="188dp"
+        android:src="@drawable/kotakabu"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView11"></ImageView>
+
+    <TextView
+        android:id="@+id/textView48"
+        android:layout_width="125dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="96dp"
+        android:fontFamily="@font/inria_sans_light"
+        android:text="Nama Produk"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView57"
+        app:layout_constraintTop_toBottomOf="@+id/imageView10">
+
+    </TextView>
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="488dp"
+        android:layout_height="73dp"
+        android:layout_marginTop="148dp"
+        android:src="@drawable/garis"
+        app:layout_constraintTop_toBottomOf="@+id/imageView10"
+        tools:layout_editor_absoluteX="-39dp"></ImageView>
+
+    <ImageView
+        android:id="@+id/imageView78"
+        android:layout_width="191dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="24dp"
+        android:src="@drawable/maju"
+        app:layout_constraintBottom_toBottomOf="@+id/textView29"
+        app:layout_constraintStart_toStartOf="@+id/imageView79"
+        app:layout_constraintTop_toTopOf="@+id/imageView7"
+        app:layout_constraintVertical_bias="1.0"></ImageView>
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="135dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="23dp"
+        android:fontFamily="@font/inria_sans_light"
+        android:text="Voucher Diskon"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/textView30"
+        app:layout_constraintTop_toTopOf="@+id/imageView7">
+
+    </TextView>
+
+
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="116dp"
+        android:layout_height="106dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/manusia3"
+        app:layout_constraintEnd_toStartOf="@+id/textView49"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toEndOf="@+id/imageView15"
+        app:layout_constraintTop_toBottomOf="@+id/imageView10"></ImageView>
+
+
+
+
+
+
+
+    <TextView
+        android:id="@+id/textView47"
+        android:layout_width="135dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="64dp"
+        android:fontFamily="@font/inria_sans_light"
+        android:text="Pilih Semua"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.103"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="@+id/imageView7">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/textView49"
+        android:layout_width="125dp"
+        android:layout_height="42dp"
+        android:fontFamily="@font/inria_sans_light"
+        android:text="RP. 0,00"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/textView48"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/textView48"
+        app:layout_constraintTop_toBottomOf="@+id/textView48">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/textView60"
+        android:layout_width="6dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="59dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/inria_sans_light"
+        android:text="1"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/imageView56"
+        app:layout_constraintStart_toStartOf="@+id/imageView57"
+        app:layout_constraintTop_toBottomOf="@+id/textView49">
+
+    </TextView>
+
+    <ImageView
+        android:id="@+id/imageView54"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:src="@drawable/kotakabu"
+        app:layout_constraintEnd_toEndOf="@+id/textView55"
+        app:layout_constraintTop_toBottomOf="@+id/textView55"></ImageView>
+
+    <ImageView
+        android:id="@+id/imageView55"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:src="@drawable/kotakmerah2"
+        app:layout_constraintStart_toStartOf="@+id/textView55"
+        app:layout_constraintTop_toBottomOf="@+id/textView55"></ImageView>
+
+    <TextView
+        android:id="@+id/textView58"
+        android:layout_width="6dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/inria_sans_light"
+        android:text="1"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/imageView54"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/imageView55"
+        app:layout_constraintTop_toBottomOf="@+id/textView55">
+
+    </TextView>
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="34dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="184dp"
+        android:src="@drawable/kotakabu"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView14"></ImageView>
+
+    <TextView
+        android:id="@+id/textView57"
+        android:layout_width="125dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="96dp"
+        android:fontFamily="@font/inria_sans_light"
+        android:text="Nama Produk"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView9">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/textView55"
+        android:layout_width="125dp"
+        android:layout_height="42dp"
+        android:fontFamily="@font/inria_sans_light"
+        android:text="RP. 0,00"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/textView57"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView57"
+        app:layout_constraintTop_toBottomOf="@+id/textView57">
+
+    </TextView>
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="488dp"
+        android:layout_height="73dp"
+        android:src="@drawable/garis"
+        app:layout_constraintTop_toBottomOf="@+id/imageView50"
+        tools:layout_editor_absoluteX="-39dp"></ImageView>
+
+    <ImageView
+        android:id="@+id/imageView81"
+        android:layout_width="191dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="24dp"
+        android:src="@drawable/maju"
+        app:layout_constraintBottom_toBottomOf="@+id/textView31"
+        app:layout_constraintStart_toEndOf="@+id/textView31"
+        app:layout_constraintTop_toTopOf="@+id/imageView9"
+        app:layout_constraintVertical_bias="0.666"></ImageView>
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="139dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/inria_sans_light"
+        android:text="Voucher Diskon"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/imageView9"
+        app:layout_constraintTop_toTopOf="@+id/imageView9">
+
+    </TextView>
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="488dp"
+        android:layout_height="73dp"
+        android:src="@drawable/garis"
+        app:layout_constraintTop_toBottomOf="@+id/imageView55"
+        tools:layout_editor_absoluteX="-39dp"></ImageView>
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="116dp"
+        android:layout_height="106dp"
+        android:layout_marginEnd="16dp"
+        android:src="@drawable/manusia1"
+        app:layout_constraintEnd_toStartOf="@+id/textView55"
+        app:layout_constraintStart_toStartOf="@+id/imageView12"
+        app:layout_constraintTop_toTopOf="@+id/textView57"></ImageView>
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="116dp"
+        android:layout_height="106dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:src="@drawable/manusia2"
+        app:layout_constraintEnd_toStartOf="@+id/textView61"
+        app:layout_constraintHorizontal_bias="0.933"
+        app:layout_constraintStart_toEndOf="@+id/imageView14"
+        app:layout_constraintTop_toBottomOf="@+id/imageView8"></ImageView>
+
+    <TextView
+        android:id="@+id/textView61"
+        android:layout_width="125dp"
+        android:layout_height="42dp"
+        android:fontFamily="@font/inria_sans_light"
+        android:text="RP. 0,00"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/textView63"
+        app:layout_constraintTop_toBottomOf="@+id/textView63">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/textView62"
+        android:layout_width="6dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/inria_sans_light"
+        android:text="1"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/imageView52"
+        app:layout_constraintHorizontal_bias="0.888"
+        app:layout_constraintStart_toEndOf="@+id/imageView50"
+        app:layout_constraintTop_toBottomOf="@+id/textView61">
+
+    </TextView>
+
+    <ImageView
+        android:id="@+id/imageView50"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:src="@drawable/kotakmerah2"
+        app:layout_constraintStart_toStartOf="@+id/textView61"
+        app:layout_constraintTop_toBottomOf="@+id/textView61"></ImageView>
+
+    <TextView
+        android:id="@+id/textView63"
+        android:layout_width="125dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="100dp"
+        android:fontFamily="@font/inria_sans_light"
+        android:text="Nama Produk"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView8">
+
+    </TextView>
+
+    <ImageView
+        android:id="@+id/imageView52"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:src="@drawable/kotakabu"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView50"
+        app:layout_constraintEnd_toEndOf="@+id/textView61"
+        app:layout_constraintTop_toBottomOf="@+id/textView61"
+        app:layout_constraintVertical_bias="0.0"></ImageView>
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="34dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="56dp"
+        android:src="@drawable/kotakabu"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView8"></ImageView>
+
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="139dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="27dp"
+        android:fontFamily="@font/inria_sans_light"
+        android:text="Voucher Diskon"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/imageView10"
+        app:layout_constraintTop_toTopOf="@+id/imageView10">
+
+    </TextView>
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="420dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="52dp"
+        android:src="@drawable/garismerah"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></ImageView>
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="177dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/inria_sans_light"
+        android:text="KERANJANG SAYA"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView8">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="27dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/inria_sans_light"
+        android:text="(3)"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.914"
+        app:layout_constraintStart_toEndOf="@+id/textView35"
+        app:layout_constraintTop_toTopOf="@+id/imageView8">
+
+    </TextView>
+<ImageButton
+    android:id="@+id/ButtonKembali"
+    android:background="@color/white"
+    android:layout_width="64dp"
+    android:layout_height="25dp"
+    android:layout_marginTop="16dp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.0"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    ></ImageButton>
+    <ImageView
+        android:layout_width="64dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/balik"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></ImageView>
+
+    <ImageView
+        android:id="@+id/imageView79"
+        android:layout_width="191dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="31dp"
+        android:src="@drawable/maju"
+        app:layout_constraintStart_toStartOf="@+id/imageView81"
+        app:layout_constraintTop_toTopOf="@+id/imageView10"></ImageView>
+
+
+    <ImageView
+        android:id="@+id/imageView58"
+        android:layout_width="516dp"
+        android:layout_height="58dp"
+        android:src="@drawable/garis"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"></ImageView>
+
+    <TextView
+        android:id="@+id/textView64"
+        android:layout_width="50dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/inria_sans_light"
+        android:text="Total"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView58">
+
+    </TextView>
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="74dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginBottom="12dp"
+        android:fontFamily="@font/inria_sans_light"
+        android:text="RP. 0,00"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView64"
+        app:layout_constraintTop_toTopOf="@+id/imageView58"
+        app:layout_constraintVertical_bias="0.0">
+
+    </TextView>
+
+
+    <ImageButton
+        android:id="@+id/imageView5"
+        android:layout_width="738dp"
+        android:layout_height="92dp"
+        android:layout_marginStart="250dp"
+        android:src="@drawable/garismerah"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView58"></ImageButton>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="106dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/inria_sans_light"
+        android:text="CHECK OUT"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.72"
+        app:layout_constraintStart_toEndOf="@+id/textView"
+        app:layout_constraintTop_toTopOf="@+id/imageView58">
+
+    </TextView>
+
+
+    <ImageView
+        android:id="@+id/imageView60"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView56"
+        app:layout_constraintStart_toEndOf="@+id/textView60"
+        app:layout_constraintTop_toTopOf="@+id/imageView56"
+        app:srcCompat="@drawable/plus" />
+
+    <ImageView
+        android:id="@+id/imageView63"
+        android:layout_width="18dp"
+        android:layout_height="6dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toStartOf="@+id/textView62"
+        app:layout_constraintStart_toStartOf="@+id/imageView50"
+        app:layout_constraintTop_toTopOf="@+id/imageView50"
+        app:srcCompat="@drawable/min" />
+
+    <ImageView
+        android:id="@+id/imageView65"
+        android:layout_width="18dp"
+        android:layout_height="6dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toStartOf="@+id/textView60"
+        app:layout_constraintStart_toStartOf="@+id/imageView57"
+        app:layout_constraintTop_toTopOf="@+id/imageView57"
+        app:srcCompat="@drawable/min" />
+
+    <ImageView
+        android:id="@+id/imageView64"
+        android:layout_width="18dp"
+        android:layout_height="6dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toStartOf="@+id/textView58"
+        app:layout_constraintStart_toStartOf="@+id/imageView55"
+        app:layout_constraintTop_toTopOf="@+id/imageView55"
+        app:srcCompat="@drawable/min" />
+
+    <ImageView
+        android:id="@+id/imageView62"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView52"
+        app:layout_constraintStart_toEndOf="@+id/textView62"
+        app:layout_constraintTop_toTopOf="@+id/imageView52"
+        app:srcCompat="@drawable/plus" />
+
+    <ImageView
+        android:id="@+id/imageView61"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView54"
+        app:layout_constraintStart_toEndOf="@+id/textView58"
+        app:layout_constraintTop_toTopOf="@+id/imageView54"
+        app:srcCompat="@drawable/plus" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
